@@ -8,7 +8,7 @@ const personajes = [
   { nombre: "Elfrida Clagg", imagen: "imagenes/ElfridaClagg.png", cromo: 3 },
   { nombre: "Grogan Stump", imagen: "imagenes/GroganStump.png", cromo: 4 },
   { nombre: "Gulliver Pokeby", imagen: "imagenes/GulliverPokeby.png", cromo: 5 },
-  { nombre: "Glanmore Peakes", imagen: "imagenes/GlanmorePeakes.png", cromo: 6 },
+  { nombre: "Glanmore Peakes", imagen: "imagenes/Glanmor ePeakes.png", cromo: 6 },
   { nombre: "Hesper Starkey", imagen: "imagenes/HesperStarkey.png", cromo: 7 },
   { nombre: "Derwent Shimpling", imagen: "imagenes/DerwentShimpling.png", cromo: 8 },
   { nombre: "Gunhilda De Gorsemoor", imagen: "imagenes/GunhildaDeGorsemoor.png", cromo: 9 },
@@ -352,5 +352,6 @@ function mostrarMensajeCopiado() {
   setTimeout(() => { mensaje.style.animation = "none"; }, 1300);
 
 }
+
 
 
