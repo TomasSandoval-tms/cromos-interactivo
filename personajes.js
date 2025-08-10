@@ -17,7 +17,7 @@ const personajes = [
   { nombre: "El Malicioso Merwyn", imagen: "imagenes/elMaliciosoMerwyn.png", cromo: 12 },
   { nombre: "El Invencible Andros", imagen: "imagenes/elInvencibleAndros.png", cromo: 13 },
   { nombre: "El Miedoso Fulbert", imagen: "imagenes/elMiedosoFulbert.png", cromo: 14 },
-  { nombre: "Paracelso", imagen: "imagenes/paracelso.png", cromo: 15 },
+  { nombre: "Paracelso", imagen: "imagenes/Paracelso.png", cromo: 15 },
   { nombre: "Cliodna", imagen: "imagenes/cliodna.png", cromo: 16 },
   { nombre: "Morgan le Fay", imagen: "imagenes/morganLeFay.png", cromo: 17 },
   { nombre: "Uric el Chiflado", imagen: "imagenes/uricElChiflado.png", cromo: 18 },
@@ -352,6 +352,7 @@ function mostrarMensajeCopiado() {
   setTimeout(() => { mensaje.style.animation = "none"; }, 1300);
 
 }
+
 
 
 
