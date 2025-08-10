@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una página para sortear personajes, con interfaz sencilla y diseño interactivo.">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=IM+Fell+English&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="resultados" class="resultados">
+        <div class="zona-lateral">
+            <button id="verHistorial" class="boton-redireccion">📖 Ver Historial</button>
+            <div id="historial" style="display: none; margin-top: 20px;">
+                <div id="lista-historial"></div>
+            </div>
+        </div>
+
+        <div class="zona-central">
+            <div id="contenedor-tarjetas"></div>
+            <div id="mini-info-destacada" class="mini-info" style="display: none;"></div>
+            <button id="copiar" class="boton-redireccion">📋 Copiar Cromo</button>
+        </div>
+
+        <button id="volver" class="boton-redireccion">↩ Volver</button>
+    </div>
+
+    <div id="vista-inicial">
+        <div class="titulo">
+            <h1> Ruleta de Cromos de Harry Potter</h1>
+            <p class="frase-magica">Invoca el destino y descubre qué magos te acompañarán hoy…</p>
+        </div>
+        
+        <div class="lista-con-scroll">
+            <h2>Lista de Personajes</h2>
+            <ol></ol>
+        </div>
+
+        <div class="opciones">
+            <div class="instrucciones">
+                <p>Selecciona cuántos ganadores querés, presioná “Sortear” y deja que la magia decida.</p>
+            </div>
+            <select id="opc">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option> 
+            </select>
+        </div>
+
+        <div class="contenedor">
+            <button id="boton-sortear" class="boton-magico" onclick="mostrarNombresAleatorios()">🎲 Sortear</button>
+        </div>
+
+    </div>
+    <script src="personajes.js"></script>
+    <script src="info.js"></script>
+</body>
+
+</html>
