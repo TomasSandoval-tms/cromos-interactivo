@@ -350,4 +350,5 @@ function mostrarMensajeCopiado() {
     setTimeout(() => particula.remove(), 800);
   }
   setTimeout(() => { mensaje.style.animation = "none"; }, 1300);
+
 }
