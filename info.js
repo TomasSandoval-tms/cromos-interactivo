@@ -100,4 +100,5 @@ const miniInfoLista = {
   "Daisy Dodderidge": "Daisy Dodderidge fue la bruja que construyó el Caldero Chorreante para unir el mundo mágico y el muggle. Fue su primera dueña, y el lugar se volvió la entrada principal al Callejón Diagon. Su iniciativa facilitó el acceso seguro a la comunidad mágica.",
   "Harry Potter": "Harry James Potter es un mago mestizo, único sobreviviente conocido de la maldición Avada Kedavra, lanzada dos veces por Lord Voldemort. Fue clave en la derrota del mago tenebroso durante ambas Guerras Mágicas, especialmente en la Batalla de Hogwarts. Tras la guerra, se convirtió en auror, jefe del Departamento de Seguridad Mágica y formó una familia con Ginny Weasley.",
   "Albus Dumbledore": "Albus Dumbledore fue un mago mestizo considerado el más poderoso de su época, famoso por derrotar a Grindelwald y descubrir usos de la sangre de dragón. Fue profesor y director de Hogwarts, además de líder de la Orden del Fénix en ambas guerras mágicas. Murió en 1997, pero sus planes fueron clave para la derrota final de Voldemort."
+
 };
