@@ -37,7 +37,7 @@ const personajes = [
   { nombre: "La Rara Wendelin", imagen: "imagenes/laRaraWendelin.png", cromo: 20 },
   { nombre: "Lord Stoddard Withers", imagen: "imagenes/lordStoddardWithers.png", cromo: 21 },
   { nombre: "Circe", imagen: "imagenes/Circe.png", cromo: 22 },
-  { nombre: "Glenda Chittock", imagen: "imagenes/glendaChittock.png", cromo: 23 },
+  { nombre: "Glenda Chittock", imagen: "imagenes/imagenes/GlendaChittock.png", cromo: 23 },
   { nombre: "Adalbert Waffling", imagen: "imagenes/adalbertWaffling.png", cromo: 24 },
   { nombre: "Perpetua Fancourt", imagen: "imagenes/perpetuaFancourt.png", cromo: 25 },
   { nombre: "Almerick Sawbridge", imagen: "imagenes/almerikSawbridge.png", cromo: 26 },
@@ -398,6 +398,7 @@ function mostrarMensajeCopiado() {
   setTimeout(() => { mensaje.style.animation = "none"; }, 1300);
 
 }
+
 
 
 
